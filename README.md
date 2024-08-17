@@ -1,8 +1,9 @@
-# React + Vite
+# Steps to Run This Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Make sure that Nodejs is installed, install it if still haven't. Node Version 21 is encouraged.
+2. Create an empty folder by: `mkdir react-dashboard-app && cd react-dashboard-app`.
+3. Initialize git in this folder: `git init`.
+4. Add Github URL as remote: `git remote add origin https://github.com/hiaweiqi0906/react-dashboard-app.git`.
+5. Perform Git pull from main branch: `git pull origin main`.
+6. Install all packages with `--force` flag: `npm i --force`.
+7. Run the React app with: `npm run dev`
